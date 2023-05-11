@@ -1,0 +1,75 @@
+/* color properties */
+/* background-color */
+/* color names > 140 */
+/* rgb red blue green 0 - 255 */
+/* rgba A-opacity/ transparency */
+/* hex value */
+/* #first {
+  color: white;
+  background-color: black;
+}
+
+#second {
+  color: red;
+  background: yellow;
+} */
+/* #first {
+  color: rgb(255, 0, 0);
+  background: rgb(0, 0, 0);
+}
+
+#second {
+  color: rgb(0, 255, 0);
+  background: rgb(255, 255, 255);
+}
+body {
+  background: rgb(150, 34, 210);
+}
+
+#third {
+  color: rgb(0, 0, 255);
+  background: rgb(200, 90, 230);
+} */
+/* #first {
+  color: rgba(255, 0, 0, 1);
+    background: rgba(0, 0, 0, 0);
+
+}
+
+#second {
+  color: rgba(255, 0, 0, 0.75);
+    background: rgba(0, 0, 0, 0.25);
+
+}
+
+#third {
+  color: rgba(255, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.75);
+}
+#fourth {
+  
+  color: rgba(0, 255, 0, 0.67);
+  background: rgba(0, 0, 0, 1);
+} */
+
+#first {
+  color: #ff0000;
+    background: #000000;
+
+}
+
+#second {
+  color: #fff;
+    background: #9d770d;
+
+}
+
+#third {
+  color: rgba(255, 0, 0, 0.25);
+  background: rgba(0, 0, 0, 0.75);
+}
+#fourth {
+  /* color: rgba(255, 0, 0, 0); */
+  color: #0000ff;
+  background: rgba(0, 0, 0, 1);
+}
