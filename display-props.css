@@ -1,0 +1,73 @@
+/* .block{
+  background: blue;
+  color: white;
+  display: inline;
+}
+
+.inline{
+  background-color: red;
+  color: white;
+  display:block;
+} */
+
+/* .block {
+	background: blue;
+	color: white;
+  width: 500px;
+  margin: 1px auto;
+} */
+
+/* .inline {
+	background-color: red;
+	color: white;
+}
+
+body{
+  text-align: center;
+} */
+
+/* div{
+  background-color: blue;
+  color: white;
+  width: 300px;
+  height: 200px;
+} */
+/* *{
+  margin: 0;
+  padding: 0;
+}
+ul li{
+  list-style: none;
+  background-color: brown;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  display: inline-block;
+  margin: 8px;
+} */
+
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.one,
+.two,
+.three {
+	color: aliceblue;
+	font-size: 20px;
+	width: 200px;
+	height: 200px;
+}
+.one {
+	background-color: red;
+  padding: 20px;
+}
+.two {
+	background-color: blue;
+}
+.three {
+	background-color: green;
+  padding: 20px;
+} */
