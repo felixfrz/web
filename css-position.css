@@ -1,0 +1,46 @@
+/* 
+position: static - default, always positioned to the normal flow,
+position: relative - position relative to it's normal position.
+top, bottom, left, right
+sticky,
+fixed,
+absolute
+*/
+/* *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.nav {
+	background-color: teal;
+	color: white;
+	width: 100%;
+	position: sticky;
+
+	top: 0;
+	left: 0;
+}
+div {
+	border: 3px solid red;
+	background: yellowgreen;
+}
+
+.one {
+	background-color: black;
+	color: aliceblue;
+	margin-top: 50px;
+}
+
+.two {
+	background-color: blue;
+	color: white;
+}
+.special {
+	background-color: pink;
+	color: #000;
+	font-size: 20px;
+}
+.fixed {
+	min-height: 200vh;
+	background-color: blue;
+}
