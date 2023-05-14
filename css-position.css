@@ -142,8 +142,8 @@ p::after{
   background-color: black;
 } */
 
-div {
-	width: 70vw;
+/* div {
+	width: 20vw;
 	border: 2px solid red;
 	margin: 100px auto;
 	position: relative;
@@ -152,7 +152,6 @@ div {
 img {
 	width: 100%;
 	display: block;
-
 }
 
 div::before {
@@ -165,7 +164,7 @@ div::before {
 	top: -40px;
 	left: -40px;
 	z-index: -2;
-  transition: all 0.5s linear;
+	transition: all 0.5s linear;
 }
 div::after {
 	content: '';
@@ -177,9 +176,45 @@ div::after {
 	top: -20px;
 	left: -20px;
 	z-index: -1;
-  transition: all 1s linear;
+	
+	transition: all 0.5s linear;
 }
-div:hover::after, div:hover::before{
-    top: 0;
-    left: 0;
+div:hover::after,
+div:hover::before {
+	top: 0;
+	left: 0;
+	transform: scale(1.3, 1.3);
+	transform: rotate(20deg);
+} */
+/* .tr{
+	width: 70vw;
+	height: 60vh;
+	margin: 90px auto;
+	position: relative;
+		transition: all 5s linear;
 }
+.tr::before {
+	content: "";
+	background: url(./big.webp) center/cover no-repeat;
+	position: absolute;
+transition: all 5s linear;
+	border-radius: 6px;
+	z-index: 2;
+	width: 100%;
+	height: 100%;
+}
+.tr::after {
+	content: '';
+	background: url(./last.jpeg) center/cover no-repeat;
+	position: absolute;
+	top: 20px;
+	left: 20px;
+	height: 100%;
+	width: 100%;
+		transition: all 5s linear;
+		z-index: 1;
+}
+.tr:hover::before {
+	background: url(./small.jpeg) center/cover no-repeat;
+	border-radius: 6px;
+} */
