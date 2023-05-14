@@ -1,0 +1,68 @@
+/* h1 {
+  color: blue;
+}
+
+h2 {
+  color: teal;
+}
+
+p {
+  color: grey;
+} */
+
+/* grouping selector */
+
+/* h1,
+h2,
+p {
+  color: green;
+} */
+
+/* ID selector */
+/* #title {
+  color: green;
+  background-color: black;
+}
+
+#footer {
+  color: red;
+  background-color: grey;
+} */
+
+/* Class selector */
+/* .green{
+  color: green;
+}
+
+.red{
+  color: red;
+  background-color: grey;
+} */
+
+/* inheritance */
+/* body {
+  color: red;
+  border: 3px solid black;
+  font-family: monospace;
+}
+.special {
+  color: green;
+  font-size: 30;
+}
+
+h1 {
+  color: blue;
+} */
+
+
+/* last rule principle and specificity and universal selector */
+.special{
+  color: green;
+}
+p{
+  color: red;
+}
+/* more code */
+p{
+  color: blue;
+}
